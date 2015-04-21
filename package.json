@@ -1,0 +1,28 @@
+{
+  "name": "node-jscover-webpack-loader",
+  "version": "1.0.0",
+  "description": "webpack loader for node-jscover",
+  "keywords": [
+    "webpack loader",
+    "node-jscover"
+  ],
+  "homepage": "http://github.com/yiminghe/node-jscover-webpack-loader.git",
+  "author": "yiminghe@gmail.com",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:yiminghe/node-jscover-webpack-loader.git"
+  },
+  "bugs": {
+    "url": "http://github.com/yiminghe/node-jscover-webpack-loader/issues"
+  },
+  "licenses": "MIT",
+  "devDependencies": {
+    "precommit-hook": "^1.0.7"
+  },
+  "dependencies": {
+    "node-jscover": "~0.6.10"
+  },
+  "scripts": {
+    "publish": "git push origin master:master"
+  }
+}
